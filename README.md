@@ -1,84 +1,67 @@
-🎓 Student Grade Analysis
-This project takes a Students Performance dataset, calculates total scores, assigns grades, and visualizes the results with beautiful charts.
-It’s simple, beginner-friendly, and a great example of Pandas + Matplotlib + Seaborn usage.
+# 🎓 Student Grade Analysis
 
-📌 Features
-Read CSV data about students' performance.
+This project analyzes **student performance data**, calculates **total scores**, assigns **grades**, and visualizes the results with clear and attractive charts.  
+It’s beginner-friendly and demonstrates practical use of **Pandas**, **Matplotlib**, and **Seaborn**.
 
-Calculate total score for each student.
+---
 
-Assign grades based on score ranges:
+## ✨ Features
 
-A → 250+
+- 📂 **Read CSV Data** – Load student performance dataset.
+- ➕ **Calculate Total Score** – Sum of Math, Reading, and Writing scores.
+- 🏅 **Assign Grades** based on total score:
+  
+  | Grade | Score Range |
+  |-------|-------------|
+  | 🅰️ A  | 250+         |
+  | 🅱️ B  | 200–249     |
+  | 🇨 C  | 150–199     |
+  | 🇩 D  | 100–149     |
+  | ❌ F  | Below 100   |
 
-B → 200–249
+- 📊 **Data Analysis**:
+  - Summary statistics
+  - Grade distribution counts
+  - Missing value check
 
-C → 150–199
+- 📈 **Data Visualizations**:
+  - Histograms of subject scores
+  - Boxplots: Gender vs Scores
+  - Pie chart of grade distribution
+  - Correlation heatmap
+  - Bar chart: Test Preparation vs Average Score
 
-D → 100–149
+---
 
-F → Below 100
+## 📂 Dataset Information
 
-Data Analysis:
+The dataset contains the following key columns:
+- **gender**
+- **math score**
+- **reading score**
+- **writing score**
+- **test preparation course**
 
-Summary statistics
+---
 
-Grade counts
+## 🚀 Getting Started
 
-Missing value check
-
-Data Visualization:
-
-Histograms of subject scores
-
-Boxplots comparing gender vs scores
-
-Pie chart of grade distribution
-
-Correlation heatmap
-
-Bar chart: Test preparation vs average score
-
-📂 Dataset
-The project uses the StudentsPerformance.csv dataset.
-Each row contains:
-
-Gender
-
-Math Score
-
-Reading Score
-
-Writing Score
-
-Test Preparation Course status
-
-🚀 How to Run
-Clone this repo
-
-bash
-Copy
-Edit
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/student-grade-analysis.git
 cd student-grade-analysis
-Install required libraries
 
-bash
-Copy
-Edit
+2️⃣ Install Dependencies
 pip install pandas numpy matplotlib seaborn
-Open the notebook
 
-bash
-Copy
-Edit
+3️⃣ Run the Notebook
 jupyter notebook StudentGrade.ipynb
-Run all cells to see results.
 
-📊 Example Visuals
+
+📊 Example Outputs
 Score Distributions
 
-Gender vs Score Boxplots
+Gender Comparison in Scores
 
 Grade Distribution Pie Chart
 
@@ -86,27 +69,26 @@ Correlation Heatmap
 
 Impact of Test Preparation on Scores
 
-🛠 Technologies Used
-Python
+🛠 Tech Stack
+Python 3
 
 Pandas – Data manipulation
 
 NumPy – Numerical operations
 
-Matplotlib & Seaborn – Data visualization
+Matplotlib & Seaborn – Visualization
 
 Jupyter Notebook – Interactive coding
 
 💡 Why This Project?
-This project is perfect if you’re:
+This project is perfect for:
 
-New to data analysis
+📚 Beginners learning data analysis
 
-Learning Pandas and Seaborn
+🎨 Practicing data visualization
 
-Practicing data visualization
-
-Interested in student performance insights
+🔍 Exploring student performance insights
 
 📜 License
 This project is open-source and free to use.
+
